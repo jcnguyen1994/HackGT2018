@@ -29,7 +29,10 @@ dependencies {
     implementation project(':instantapp')
     implementation project(':base')
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.google.firebase:firebase-core:16.0.1'
 }
 repositories {
     mavenCentral()
 }
+
+apply plugin: 'com.google.gms.google-services'

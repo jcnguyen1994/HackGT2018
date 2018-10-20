@@ -6,4 +6,62 @@
     android:layout_height="match_parent"
     tools:context=".HostActivity">
 
+    <TextView
+        android:id="@+id/category_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="161dp"
+        android:text="Category:" />
+
+    <TextView
+        android:id="@+id/host_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="260dp"
+        android:text="Description:" />
+
+    <AutoCompleteTextView
+        android:id="@+id/host_location"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="98dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/host_category"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="196dp" />
+
+    <TextView
+        android:id="@+id/location_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="71dp"
+        android:text="Today's Cuisine:" />
+
+    <EditText
+        android:id="@+id/host_description"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/host_location"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="256dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
 </RelativeLayout>
